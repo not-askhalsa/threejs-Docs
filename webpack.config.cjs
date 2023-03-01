@@ -8,7 +8,8 @@ module.exports = {
         },
         devServer: {
             static: {
-              directory: path.join(__dirname, ''),
+              directory: path.join(__dirname, 'dist'),
+              filename: 'bundle.js',
             },
             compress: true,
             port: 3000,
